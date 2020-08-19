@@ -2,7 +2,7 @@
 //  Copyright © 2020. Emarsys. All rights reserved.
 //
 
-#import "EMSNotificationInformation.h"
+#import <EmarsysSDK/EMSNotificationInformation.h>
 
 @protocol EMSNotificationInformationDelegate <NSObject>
 

@@ -3,7 +3,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EMSBlocks.h"
+#import <EmarsysSDK/EMSBlocks.h>
 
 @interface EMSInlineInAppView: UIView
 

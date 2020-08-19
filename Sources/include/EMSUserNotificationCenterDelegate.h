@@ -2,8 +2,8 @@
 // Copyright (c) 2018 Emarsys. All rights reserved.
 //
 #import <UserNotifications/UNUserNotificationCenter.h>
-#import "EMSEventHandler.h"
-#import "EMSNotificationInformationDelegate.h"
+#import <EmarsysSDK/EMSEventHandler.h>
+#import <EmarsysSDK/EMSNotificationInformationDelegate.h>
 
 @protocol EMSUserNotificationCenterDelegate <UNUserNotificationCenterDelegate>
 

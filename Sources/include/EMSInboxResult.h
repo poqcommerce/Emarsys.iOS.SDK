@@ -3,7 +3,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "EMSMessage.h"
+#import <EmarsysSDK/EMSMessage.h>
 
 @interface EMSInboxResult : NSObject
 

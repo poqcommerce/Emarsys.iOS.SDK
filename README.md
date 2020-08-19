@@ -60,7 +60,23 @@ EmarsysSDKLibrary and add to target EmarsysSample
 
 EmarsysNotificationExtensionLibrary and add to target EMSNotificationService
 
-### 3. Requirements
+### 3. Installation with Carthage
+#### 3.1 Install Carthage
+Carthage is another dependency manager for 3rd-party libraries. If you prefer to use Carthage instead of CocoaPods, you can install it with the following command:
+
+`$ brew install carthage`
+
+#### 3.2 Cartfile
+To integrate the Emarsys SDK into your Xcode project using Carthage, specify it in your Cartfile:
+```
+github "emartech/ios-emarsys-sdk" "master"
+```
+
+#### 3.3 Install the dependencies
+After creating the Cartfile, you need to execute the command below to download dependencies:
+`carthage update`
+
+### 4. Requirements
 * The iOS target should be iOS 11 or higher.
 * In order to be able to send push messages to your app, you need to have certifications from Apple Push Notification service (APNs).
 
