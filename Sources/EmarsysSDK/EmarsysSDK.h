@@ -18,13 +18,15 @@ FOUNDATION_EXPORT const unsigned char CoreSDKVersionString[];
 #import <EmarsysSDK/EMSInAppProtocol.h>
 #import <EmarsysSDK/EMSInboxProtocol.h>
 #import <EmarsysSDK/EMSInboxResult.h>
+#import <EmarsysSDK/EMSInlineInAppView.h>
 #import <EmarsysSDK/EMSLogic.h>
 #import <EmarsysSDK/EMSLogicProtocol.h>
 #import <EmarsysSDK/EMSMessage.h>
 #import <EmarsysSDK/EMSMessageInboxProtocol.h>
 #import <EmarsysSDK/EMSNotification.h>
 #import <EmarsysSDK/EMSNotificationInboxStatus.h>
-#import <EmarsysSDK/EMSNotificationService.h>
+#import <EmarsysSDK/EMSNotificationInformation.h>
+#import <EmarsysSDK/EMSNotificationInformationDelegate.h>
 #import <EmarsysSDK/EMSPredictProtocol.h>
 #import <EmarsysSDK/EMSProduct.h>
 #import <EmarsysSDK/EMSPushNotificationProtocol.h>
