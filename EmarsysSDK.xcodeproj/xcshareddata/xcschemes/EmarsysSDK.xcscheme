@@ -20,6 +20,20 @@
                ReferencedContainer = "container:EmarsysSDK.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8555B8AE24ED5F0900E579EB"
+               BuildableName = "EmarsysNotificationService.framework"
+               BlueprintName = "EmarsysNotificationService"
+               ReferencedContainer = "container:EmarsysSDK.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
